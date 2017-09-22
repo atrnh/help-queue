@@ -1,0 +1,21 @@
+{
+  "name": "help-queue",
+  "version": "1.0.0",
+  "description": "A help queue",
+  "main": "index.js",
+  "author": "Ashley Trinh",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^1.3.1",
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  },
+  "scripts": {
+    "build-project": "babel src -d lib",
+    "start": "node ./lib/index"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
